@@ -1,9 +1,3 @@
-from pathlib import Path
-
-content = r"""
-STUDYHUB - BUILD.txt
-====================
-
 GOAL
 ----
 Build a real-world student preparation platform in 1-2 months using:
