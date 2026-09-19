@@ -1,3 +1,4 @@
+<img width="1122" height="1402" alt="studyhub" src="https://github.com/user-attachments/assets/b0029930-0a9a-481c-a39b-48132ceb5529" />
 GOAL
 ----
 Build a real-world student preparation platform in 1-2 months using:
