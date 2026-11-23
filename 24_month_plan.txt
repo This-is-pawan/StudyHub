@@ -1,0 +1,265 @@
+24-MONTH SOFTWARE -> AI -> SYSTEMS -> ROBOTICS CAREER ROADMAP
+========================================================================
+Study time: 10:00 PM - 12:40 AM daily (2h40m)
+Goal: strong software engineering foundation, production systems, AI, cloud, systems programming, then robotics.
+Principle: depth + proof of work > collecting technologies.
+
+LANGUAGE PRIORITY
+- TypeScript | Primary now | Full-stack, backend, AI products, startup speed
+- Python | Primary | AI/ML, automation, robotics, scientific computing
+- C++ | Primary later | DSA, systems, performance, robotics/ROS 2
+- SQL | Mandatory | Production data systems
+- C | Later | OS, embedded, microcontrollers, low-level fundamentals
+- Rust | Later | Systems, safe concurrency, Web3/performance niches
+- Solidity | Optional | Smart contracts after distributed systems/security basics
+- Java | Skip for now | Not required for the stated path unless a job specifically needs it
+
+24-MONTH PLAN
+
+MONTH 1: TypeScript + JavaScript Deep Foundations
+  - JavaScript runtime: call stack, execution context, event loop, microtasks/macrotasks.
+  - Promises, async/await, closures, scope, prototypes, objects, classes, memory and garbage collection.
+  - TypeScript: primitive and object types, interfaces, unions, intersections, generics, narrowing, utility types, mapped/conditional types, type inference.
+  - Git/GitHub workflow: branching, pull requests, rebasing basics, meaningful commits.
+  - Linux terminal and Bash basics for day-to-day development.
+  Project: Rewrite one existing MERN app fully in TypeScript. Keep the UI familiar, but migrate backend and frontend types properly and document architectural decisions.
+
+MONTH 2: C++ Foundations + DSA
+  - C++ syntax, references, pointers, stack vs heap, functions, classes and STL.
+  - Big-O time and space complexity.
+  - Arrays, strings, linked lists, stacks, queues, hash maps, trees, heaps and graphs.
+  - Recursion, sorting, searching and basic graph traversal.
+  - Discrete mathematics basics: logic, sets, relations, functions, combinatorics and graphs.
+  Project: Create a DSA practice repository with short explanations and clean C++ implementations. Focus on understanding, not problem-count vanity metrics.
+
+MONTH 3: SQL + DBMS + Redis
+  - PostgreSQL first: SELECT, JOIN, GROUP BY, subqueries, CTEs and window functions.
+  - Constraints, keys, normalization, transactions and ACID.
+  - Indexes, B-trees, query planning, isolation levels, locks and deadlocks.
+  - Redis: caching, TTL, sessions, counters and rate limiting.
+  - Learn MySQL differences only after PostgreSQL fundamentals are comfortable.
+  Project: Build a Node + TypeScript API using PostgreSQL and Redis. Add authentication, pagination, caching and one transactional workflow.
+
+MONTH 4: Computer Networks + Operating Systems
+  - Networking: IP, TCP, UDP, ports, DNS, HTTP, HTTPS and TLS.
+  - HTTP/1.1, HTTP/2 and HTTP/3 concepts.
+  - REST, WebSocket, Server-Sent Events, reverse proxies, CDNs and load balancers.
+  - OS: processes, threads, context switching, scheduling, virtual memory, paging, filesystems, mutexes, semaphores and deadlocks.
+  Project: Build a real-time chat application using Node, WebSocket, Redis and PostgreSQL. Observe connections, reconnection, message ordering and backpressure.
+
+MONTH 5: Production Backend Engineering
+  - Authentication and authorization: sessions, JWT, OAuth concepts and RBAC.
+  - Pagination, caching, rate limiting, retries, timeouts and idempotency.
+  - Queues and workers; RabbitMQ/Kafka concepts.
+  - Logging, metrics, error handling and structured observability.
+  - Unit, integration and API testing.
+  - File/media uploads with Cloudinary/S3-style storage and metadata persistence.
+  Project: Turn StudyHub into a production-style backend: TypeScript, PostgreSQL, Redis, Cloudinary/S3, WebSocket, queues, authentication, tests and structured logs.
+
+MONTH 6: System Design I
+  - Vertical vs horizontal scaling.
+  - Load balancing, replication, partitioning and sharding.
+  - Caching and CDN strategies.
+  - Message queues and asynchronous workflows.
+  - Database selection, consistency, availability and CAP theorem intuition.
+  - Fault tolerance and graceful degradation.
+  - Rate limiting and traffic estimation.
+  Project: Design URL Shortener, WhatsApp, YouTube, Instagram, Uber, Google Drive and a Notification Service. For each, estimate users, traffic, storage, failure modes and scaling strategy.
+
+MONTH 7: Linux + Docker + DevOps
+  - Linux permissions, processes, SSH, logs and systemd basics.
+  - Docker images, containers, layers, volumes, networks and Dockerfiles.
+  - Docker Compose for local multi-service systems.
+  - Nginx reverse proxy basics.
+  - CI/CD using GitHub Actions.
+  - Environment variables, secrets hygiene and deployment configuration.
+  Project: Containerize frontend, backend, PostgreSQL, Redis and worker services. Add a CI pipeline that runs tests and builds images.
+
+MONTH 8: AWS Fundamentals
+  - IAM, EC2, S3, RDS, VPC and Security Groups.
+  - CloudFront, Route 53, load balancers and Auto Scaling.
+  - CloudWatch logging/metrics.
+  - SQS, Lambda and ECS basics.
+  - Cost-awareness and least-privilege access.
+  Project: Deploy the Month-5 production project to AWS using a simple scalable architecture. Document architecture, cost assumptions and failure handling.
+
+MONTH 9: Application Security + Cryptography Foundations
+  - OWASP Top 10 and secure coding mindset.
+  - XSS, CSRF, SQL injection, SSRF and authentication attacks.
+  - Password hashing, salts and secure session handling.
+  - Encryption vs hashing, public/private keys, digital signatures and TLS.
+  - JWT/CORS/rate-limit security pitfalls.
+  Project: Security-audit one of your own apps, write a threat model, fix vulnerabilities and document before/after behavior.
+
+MONTH 10: Python Deep Foundations
+  - Python runtime basics, modules, packaging and virtual environments.
+  - Typing, OOP, iterators, generators and decorators.
+  - asyncio, threads, the GIL and multiprocessing.
+  - NumPy and Pandas foundations.
+  - FastAPI and typed API development.
+  Project: Build a Python/FastAPI service with PostgreSQL, Redis and Docker. Include tests and one asynchronous/background workflow.
+
+MONTH 11: AI/ML Foundations
+  - Linear algebra essentials for ML.
+  - Probability and statistics.
+  - Gradient descent and optimization intuition.
+  - Linear/logistic regression, classification and clustering.
+  - Neural network fundamentals and embeddings.
+  - Tools: NumPy, scikit-learn and PyTorch.
+  Project: Train and evaluate a small ML model end-to-end. Include data cleaning, baseline, metrics, error analysis and a simple inference API.
+
+MONTH 12: LLM Engineering
+  - Transformer intuition, tokenization and embeddings.
+  - LLM APIs, structured outputs and tool calling.
+  - RAG, chunking, vector databases and retrieval quality.
+  - Prompt design, evaluation and guardrails.
+  - Agents, observability, latency and cost controls.
+  Project: Build a production-style document intelligence/RAG product with citations, evaluation cases, failure analysis and monitoring.
+
+MONTH 13: Computer Architecture + C
+  - Binary representation and machine-level data.
+  - CPU, registers, cache, RAM and instruction execution.
+  - C syntax, pointers and memory layout.
+  - Stack vs heap and process memory basics.
+  - Computer Organization & Architecture foundations.
+  Project: Write small C programs that expose memory layout, pointers, stack/heap behavior and basic systems interfaces.
+
+MONTH 14: Advanced C++ + Concurrency
+  - RAII and deterministic resource management.
+  - Smart pointers and ownership.
+  - Move semantics and templates.
+  - STL internals intuition.
+  - Threads, mutexes, condition variables and atomics.
+  - CMake and reproducible builds.
+  Project: Build a small multithreaded server or high-performance processing engine with benchmarks and profiling notes.
+
+MONTH 15: Rust
+  - Ownership, borrowing and lifetimes.
+  - Option and Result for explicit error handling.
+  - Traits, generics and modules.
+  - Threads and async programming.
+  - Tokio ecosystem basics.
+  Project: Build a compact systems/backend service in Rust, then compare ergonomics, performance and safety with your C++/TypeScript experience.
+
+MONTH 16: Distributed Systems + Web3 Foundations
+  - Replication, consensus intuition and fault tolerance.
+  - Hashing and Merkle trees.
+  - Public-key cryptography and signatures.
+  - Blockchain transactions, wallets and state.
+  - Stablecoins and settlement concepts.
+  - Smart contracts; Solidity or Rust ecosystem only after fundamentals.
+  Project: Build a small testnet application and document the full trust model, transaction flow and security assumptions.
+
+MONTH 17: Theory of Computation + Compiler Design
+  - Finite automata and regular languages.
+  - Context-free grammars and parsing intuition.
+  - Turing machines and decidability basics.
+  - Compiler pipeline: lexer, parser, AST, IR and code generation.
+  Project: Implement a tiny expression language or calculator with tokenizer, parser and AST. Keep this month focused; do not let theory displace core engineering.
+
+MONTH 18: Digital Electronics + Embedded C
+  - Voltage, current, resistance and basic circuits.
+  - Binary logic and gates.
+  - ADC, DAC and PWM.
+  - UART, I2C and SPI.
+  - Microcontrollers: start Arduino/ESP32, then STM32.
+  Project: Build a sensor + actuator project on ESP32/STM32. Read sensor data, control an output and expose telemetry over serial or network.
+
+MONTH 19: Robotics Mathematics
+  - Vectors, matrices and coordinate frames.
+  - Rotation matrices and quaternions.
+  - Homogeneous transformations.
+  - Forward and inverse kinematics.
+  - Basic numerical methods used in robotics.
+  Project: Implement 2D/3D transform and simple robotic-arm kinematics exercises in Python, then port performance-critical pieces to C++.
+
+MONTH 20: ROS 2
+  - Nodes, topics, publishers and subscribers.
+  - Services and actions.
+  - TF2 coordinate transforms.
+  - URDF robot description.
+  - Gazebo/simulation workflow.
+  - Python + C++ ROS 2 development.
+  Project: Create a simulated robot in ROS 2 with sensors, commands and TF tree. Demonstrate navigation or manipulation in simulation.
+
+MONTH 21: Control Systems + Sensors
+  - Feedback and closed-loop control.
+  - PID control and tuning intuition.
+  - Stability basics.
+  - Motor control and encoders.
+  - IMU, camera and LiDAR fundamentals.
+  - Sensor fusion concepts.
+  Project: Control a motor or simulated plant with PID; log response, tune parameters and explain overshoot, settling time and steady-state error.
+
+MONTH 22: Robotics Project
+  - Integrate compute, microcontroller, motors and sensors.
+  - Use ROS 2 as the middleware backbone.
+  - Use C++ for real-time/performance-sensitive logic and Python where iteration speed matters.
+  - Add telemetry, debugging and safety fallbacks.
+  Project: Build an autonomous rover or robotic platform using Raspberry Pi/Jetson + MCU + motors + camera/IMU + ROS 2.
+
+MONTH 23: AI + Robotics Integration
+  - Computer vision pipeline.
+  - Object detection and tracking basics.
+  - Perception-to-decision flow.
+  - LLM/voice interface only where it adds real value.
+  - Latency, reliability and safety boundaries for AI-driven actions.
+  Project: Combine camera -> vision model -> decision logic -> ROS 2 -> motor control. Add an optional voice/LLM interface that cannot bypass safety constraints.
+
+MONTH 24: Flagship Product / Portfolio Project
+  - Stop collecting courses; integrate the stack.
+  - Production frontend and control dashboard.
+  - TypeScript backend and real-time messaging.
+  - Cloud deployment and observability.
+  - ROS 2 + C++ robot runtime.
+  - Python AI/vision service.
+  - Microcontroller layer for motors/sensors.
+  - Document architecture, trade-offs, metrics and demo.
+  Project: Build one flagship AI-powered robotic product that a recruiter, customer or investor can understand in five minutes.
+
+DAILY TIMETABLE
+- 10:00-10:20 - Revise yesterday + 1-2 DSA problems
+- 10:20-11:10 - Learn core concept
+- 11:10-11:20 - Break
+- 11:20-12:10 - Build/code the concept
+- 12:10-12:30 - Debug + read documentation
+- 12:30-12:40 - Write 5-line notes + tomorrow task
+
+WEEKLY STRUCTURE
+- Monday - Core learning
+- Tuesday - Core learning
+- Wednesday - Core + exercises
+- Thursday - Core learning
+- Friday - Project
+- Saturday - Project + DSA
+- Sunday - Revision + GitHub + career/startup
+
+CS SUBJECT PRIORITY
+- Data Structures | Very High | Interview ability + engineering fundamentals
+- Design & Analysis of Algorithms | Very High | Problem solving, performance, interviews
+- DBMS | Very High | Backend correctness and performance
+- Operating Systems | Very High | Concurrency, memory, processes, systems intuition
+- Computer Networks | Very High | Backend, distributed systems, realtime apps
+- Discrete Mathematics | High | Algorithms, logic, graphs, CS foundations
+- Computer Organization & Architecture | High | C/C++, systems, embedded, robotics
+- Cryptography & Network Security | High | Security, identity, Web3 foundations
+- Digital Electronics | High for robotics | Embedded systems and hardware
+- Compiler Design | Later | Useful systems knowledge, lower career priority initially
+- Theory of Computation | Later | Strong theory, lower immediate product priority
+
+CAREER STRATEGY
+- Do not market yourself as someone who merely knows tools; market yourself as someone who can design, build, deploy and scale systems.
+- With a B.A. rather than a CS degree, compensate through real products, open source, production deployments, technical writing, users/revenue and strong interviews.
+- High compensation is not a direct result of completing courses; it comes from depth, system design, production experience, ownership, communication and business impact.
+- For the next 10 years, prioritize durable foundations: algorithms, OS, networking, databases, distributed systems, security, AI, mathematics and hardware/robotics.
+- Every month should produce visible proof on GitHub or a live deployment.
+
+END STATE
+I can design, build, deploy and scale software/AI systems, understand what happens down to the OS/network level, and connect those systems to real robots.
+
+CURRENT-MARKET REFERENCES USED IN THE ORIGINAL ROADMAP
+- World Economic Forum - Future of Jobs Report 2025 (skills outlook): https://www.weforum.org/publications/the-future-of-jobs-report-2025/3-skills-outlook
+- GitHub Octoverse / fastest-growing tools: https://github.blog/news-insights/octoverse/what-the-fastest-growing-tools-reveal-about-how-software-is-being-built/
+- GitHub Octoverse 2026: https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/
+- Stack Overflow 2025 Developer Survey press archive: https://stackoverflow.co/company/press/archive/stack-overflow-2025-developer-survey/
+- Amazon Jobs - Software Development Engineer search: https://www.amazon.jobs/en/search?base_query=Software+Development+Engineer%2C+Amazon
