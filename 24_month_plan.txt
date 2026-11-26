@@ -1,0 +1,1049 @@
+24-MONTH SOFTWARE + AI + SYSTEMS + ROBOTICS CAREER PLAN
+======================================================
+
+Goal
+----
+Build from current MERN/Vercel skills into a strong software engineer who can design,
+build, deploy, scale, secure and operate real products, then add AI and robotics.
+
+Time available:
+10:00 PM - 12:40 AM daily = 2 hours 40 minutes = 160 minutes/day.
+
+Important reality:
+You do NOT need to master every programming language or every CS subject.
+You need:
+1. One strong product stack.
+2. Strong computer science fundamentals.
+3. Backend + database + networking + system design depth.
+4. Cloud + DevOps ability.
+5. Python + AI ability.
+6. C/C++ systems foundation.
+7. Robotics stack after the above foundations.
+8. Proof: serious projects, GitHub, deployments, writing, open-source, interviews.
+
+A 50 lakh to 1 crore package can exist in top product companies, global/remote roles,
+specialized AI/systems roles, or with startup equity, but it is NOT guaranteed by learning
+a list of technologies. The target should be "top-level engineering ability + proof",
+not "collect 50 certificates".
+
+CURRENT STARTING POINT
+----------------------
+Already know:
+- MERN stack
+- JavaScript
+- React
+- Node.js / Express
+- MongoDB
+- Vercel deployment
+- Basic product development
+
+Do not restart web development from zero.
+
+CORE TECHNOLOGY ORDER
+---------------------
+Priority 1:
+TypeScript, Node.js backend depth, SQL/PostgreSQL, Git, Linux, HTTP, networking
+
+Priority 2:
+Data Structures & Algorithms, DBMS, Operating Systems, Computer Networks
+
+Priority 3:
+Redis, WebSockets, queues, caching, testing, API design, system design
+
+Priority 4:
+Docker, CI/CD, AWS, Cloudflare, observability, Terraform, Kubernetes basics
+
+Priority 5:
+Python, AI/ML fundamentals, PyTorch, LLM applications, vector search, AI agents
+
+Priority 6:
+C, C++, memory, concurrency, performance, Computer Organization
+
+Priority 7:
+Rust, security, cryptography, distributed systems
+
+Priority 8:
+Robotics: electronics basics, embedded systems, ROS2, control, computer vision,
+simulation, sensors, motors, SLAM, robot projects
+
+LOWER PRIORITY / LEARN LATER
+-----------------------------
+- Theory of Computation: learn foundations, do not spend months on it first.
+- Compiler Design: useful for deep CS/systems, but not an early career blocker.
+- Digital Electronics: important before robotics/embedded, not before backend/cloud.
+- Mobile Android+iOS: choose one cross-platform route first instead of learning everything.
+- Web3/blockchain: learn after backend/security/distributed systems unless a job demands it.
+- Multiple cloud providers: master AWS first, then understand GCP/Cloudflare differences.
+- Rust: useful, but C/C++ concepts first will make Rust easier.
+
+DAILY STUDY TIMETABLE: 10:00 PM - 12:40 AM
+-------------------------------------------
+10:00 - 10:15  Review yesterday
+- recall without notes
+- 5 flashcards / 5 interview questions
+- write what you forgot
+
+10:15 - 11:10  Core learning (55 min)
+- course/book/docs
+- only one main topic per night
+- type code yourself
+
+11:10 - 11:20  Break
+
+11:20 - 12:10  Build/project practice (50 min)
+- implement the concept in a real project
+- no passive watching
+
+12:10 - 12:30  DSA / CS fundamentals (20 min)
+- 1-2 problems or one small CS concept
+
+12:30 - 12:40  Learning log (10 min)
+Write:
+- What did I learn?
+- What did I build?
+- What broke?
+- What will I do tomorrow?
+
+WEEKLY SCHEDULE
+---------------
+Monday: Core topic + implementation
+Tuesday: Core topic + implementation
+Wednesday: CS fundamentals + coding
+Thursday: Core topic + project
+Friday: System design / debugging / testing
+Saturday: 2h40m project-only day; ship something visible.
+Sunday: Revision + one mock interview + GitHub cleanup + weekly report.
+
+Weekly output rule:
+Every week must produce at least ONE visible proof:
+- feature
+- benchmark
+- blog/note
+- deployed service
+- open-source PR
+- architecture diagram
+- test suite
+- CLI tool
+- system design document
+
+======================================================
+MONTH 1 - TYPESCRIPT + BACKEND ENGINEERING FOUNDATION
+======================================================
+Goal:
+Turn "I know MERN" into "I can build a professional backend".
+
+Learn:
+- TypeScript deeply
+- types vs interfaces
+- unions, generics, utility types
+- narrowing
+- async/await and Promises
+- Node.js event loop
+- npm/pnpm
+- environment variables
+- Express architecture
+- controllers/services/repositories
+- validation with Zod
+- centralized error handling
+- REST API conventions
+- HTTP methods/status codes/headers
+- cookies, CORS
+- JWT vs sessions
+- authentication vs authorization
+- RBAC
+- logging
+- unit/integration tests
+- Git branches, PRs, commits
+
+Project:
+Rebuild your media/upload or StudyHub backend in TypeScript using:
+React + TypeScript
+Node + Express + TypeScript
+MongoDB
+Zod
+JWT/session
+Cloudinary
+tests
+proper error handling
+
+Week 1:
+- TypeScript fundamentals
+- convert an existing JS backend to TS
+- Git basics
+
+Week 2:
+- Node.js runtime
+- event loop
+- Promises
+- Express middleware
+- REST
+
+Week 3:
+- authentication
+- authorization
+- validation
+- error handling
+- security basics
+
+Week 4:
+- tests
+- refactoring
+- deploy
+- README
+- architecture diagram
+
+End-of-month proof:
+One production-style TypeScript API deployed publicly.
+
+======================================================
+MONTH 2 - SQL + POSTGRESQL + DATABASE ENGINEERING
+======================================================
+Goal:
+Stop being "Mongo-only".
+
+Learn:
+- relational model
+- tables/rows/columns
+- primary/foreign keys
+- SELECT/INSERT/UPDATE/DELETE
+- JOINs
+- GROUP BY
+- subqueries
+- indexes
+- transactions
+- ACID
+- isolation levels
+- normalization
+- query plans
+- connection pooling
+- PostgreSQL deeply
+- MySQL differences at a practical level
+- ORM only after SQL: Prisma/Drizzle/TypeORM optional
+
+Project:
+Build the same core product feature in PostgreSQL.
+Example:
+Users + organizations + subscriptions + files + audit logs.
+
+End-of-month:
+You should be able to design a schema without blindly relying on MongoDB.
+
+======================================================
+MONTH 3 - LINUX + NETWORKING + INTERNET FUNDAMENTALS
+======================================================
+Learn Linux:
+- filesystem
+- users/groups
+- permissions
+- processes
+- signals
+- systemd
+- SSH
+- grep/sed/awk basics
+- pipes
+- logs
+- environment
+- Bash basics
+
+Learn Networking:
+- OSI idea
+- TCP/IP
+- IP/subnet basics
+- DNS
+- ports
+- TCP vs UDP
+- TLS/HTTPS
+- HTTP/1.1, HTTP/2, HTTP/3 conceptually
+- sockets
+- reverse proxy
+- NAT
+- firewalls
+
+Project:
+Rent/use a Linux VM.
+Deploy Node manually without Vercel:
+- SSH
+- Nginx
+- Node service
+- domain
+- HTTPS
+- logs
+- firewall
+
+End-of-month:
+You can explain what happens after typing a URL in a browser.
+
+======================================================
+MONTH 4 - REAL-TIME BACKENDS + REDIS + WEBSOCKETS
+======================================================
+Learn:
+- WebSocket lifecycle
+- Socket.IO vs raw WebSocket
+- SSE
+- polling
+- Redis data structures
+- caching
+- sessions
+- Pub/Sub
+- rate limiting
+- idempotency
+- background jobs
+- queues
+- RabbitMQ/Kafka concepts; use one lightweight queue first
+
+Project:
+Real-time chat/collaboration app:
+- auth
+- online presence
+- typing status
+- messages
+- Redis
+- WebSockets
+- reconnect handling
+- rate limits
+
+======================================================
+MONTH 5 - DSA + ALGORITHMS FOUNDATION
+======================================================
+Learn:
+- Big O
+- arrays/strings
+- linked lists
+- stack/queue
+- hash maps
+- recursion
+- binary search
+- sorting
+- trees/BST
+- heap
+- graph basics
+- BFS/DFS
+- greedy
+- dynamic programming basics
+
+Do:
+1-2 problems per day.
+Do NOT spend 4 months only on LeetCode.
+
+Project:
+Implement selected data structures yourself in TypeScript and later C++.
+
+======================================================
+MONTH 6 - OPERATING SYSTEMS + COMPUTER ORGANIZATION
+======================================================
+Operating Systems:
+- processes vs threads
+- scheduling
+- virtual memory
+- stack vs heap
+- pages
+- system calls
+- context switching
+- mutex/semaphore
+- deadlock
+- filesystems
+- I/O
+
+Computer Organization:
+- CPU
+- registers
+- cache
+- RAM
+- instructions
+- binary
+- memory hierarchy
+- basic assembly awareness
+
+Language:
+Start C.
+
+Project:
+Small C programs:
+- memory
+- pointers
+- files
+- processes
+- threads
+
+======================================================
+MONTH 7 - DOCKER + CI/CD
+======================================================
+Learn:
+- images
+- containers
+- Dockerfile
+- layers
+- volumes
+- networks
+- Docker Compose
+- multi-stage builds
+- secrets
+- container security basics
+- GitHub Actions
+- tests in CI
+- build/deploy pipeline
+
+Project:
+Dockerize full-stack product:
+- frontend
+- backend
+- PostgreSQL
+- Redis
+- worker
+
+CI:
+push -> test -> build -> deploy
+
+======================================================
+MONTH 8 - AWS FOUNDATION
+======================================================
+Choose AWS as first major cloud.
+
+Learn:
+- IAM
+- EC2
+- VPC basics
+- subnets
+- security groups
+- S3
+- CloudFront
+- Route 53
+- RDS
+- ElastiCache concept
+- load balancer
+- autoscaling
+- Lambda basics
+- CloudWatch
+- secrets
+
+Do not try to memorize 200 AWS services.
+
+Project:
+Deploy your Dockerized app on AWS with:
+- EC2/ECS
+- RDS
+- S3
+- CloudFront
+- monitoring
+
+======================================================
+MONTH 9 - SYSTEM DESIGN I
+======================================================
+Learn:
+- latency vs throughput
+- vertical vs horizontal scaling
+- load balancing
+- reverse proxy
+- caching
+- CDN
+- replication
+- sharding
+- SQL vs NoSQL
+- consistency
+- queues
+- background jobs
+- rate limiting
+- idempotency
+- availability
+- failure handling
+
+Design exercises:
+- URL shortener
+- chat system
+- file upload system
+- notification service
+- social feed
+
+Project:
+Write architecture documents for your own applications.
+
+======================================================
+MONTH 10 - TESTING + OBSERVABILITY + RELIABILITY
+======================================================
+Learn:
+- unit tests
+- integration tests
+- end-to-end tests
+- load testing
+- structured logging
+- metrics
+- tracing
+- health checks
+- retries
+- timeout
+- circuit breaker concept
+- OpenTelemetry basics
+- Prometheus/Grafana basics
+
+Project:
+Load-test one backend.
+Find bottlenecks.
+Optimize database + cache.
+Write before/after benchmark.
+
+======================================================
+MONTH 11 - PYTHON FOR SOFTWARE + DATA
+======================================================
+Learn Python properly:
+- syntax quickly
+- functions
+- modules
+- virtual environments
+- pip/uv
+- typing
+- classes
+- iterators/generators
+- decorators
+- async
+- multiprocessing
+- testing
+- FastAPI
+
+Data:
+- NumPy
+- pandas basics
+- Jupyter
+
+Project:
+Build a FastAPI service and integrate it with your TypeScript product.
+
+======================================================
+MONTH 12 - AI/ML FOUNDATION
+======================================================
+Math:
+- vectors/matrices
+- probability basics
+- derivatives intuition
+- gradient descent
+
+ML:
+- train/validation/test
+- regression
+- classification
+- overfitting
+- metrics
+- embeddings
+
+Tools:
+- scikit-learn
+- PyTorch basics
+
+Project:
+Train and deploy a small model behind an API.
+
+YEAR-1 CHECKPOINT
+-----------------
+By now you should have:
+- strong TypeScript backend
+- SQL + Mongo
+- Linux
+- networking
+- Redis/WebSockets
+- DSA foundation
+- OS/COA foundation
+- Docker
+- AWS
+- CI/CD
+- system design fundamentals
+- Python
+- basic ML
+
+Portfolio target:
+3 serious deployed projects, not 30 tutorial projects.
+
+======================================================
+MONTH 13 - LLM / AI APPLICATION ENGINEERING
+======================================================
+Learn:
+- transformers conceptually
+- tokens
+- embeddings
+- vector databases
+- RAG
+- chunking
+- retrieval
+- reranking
+- tool calling
+- structured outputs
+- evals
+- hallucination handling
+- prompt/context engineering
+- agent workflows
+- cost/latency
+- security for AI apps
+
+Project:
+Production RAG/agent application with evaluations.
+
+======================================================
+MONTH 14 - C++ + PERFORMANCE
+======================================================
+Learn:
+- C++ syntax
+- RAII
+- references
+- smart pointers
+- STL
+- templates basics
+- compilation/linking
+- CMake
+- memory ownership
+- threading
+- performance profiling
+
+Project:
+Build a small high-performance service/tool.
+Reimplement selected DSA in C++.
+
+======================================================
+MONTH 15 - CONCURRENCY + DISTRIBUTED SYSTEMS
+======================================================
+Learn:
+- threads
+- locks
+- atomics basics
+- race conditions
+- deadlocks
+- producer/consumer
+- distributed failures
+- consensus intuition
+- leader/follower
+- replication
+- eventual consistency
+- distributed locks
+- message delivery semantics
+
+Project:
+Build a distributed job queue / worker system.
+
+======================================================
+MONTH 16 - SECURITY + CRYPTOGRAPHY
+======================================================
+Learn:
+- authentication/authorization
+- OAuth/OIDC
+- hashing
+- encryption
+- symmetric/asymmetric crypto
+- TLS
+- signatures
+- secrets
+- OWASP Top 10
+- API security
+- SSRF/CSRF/XSS/SQL injection
+- rate limiting
+- threat modeling
+
+Project:
+Security review your own products.
+Create a threat model and fix issues.
+
+======================================================
+MONTH 17 - RUST
+======================================================
+Learn Rust AFTER C/C++ concepts:
+- ownership
+- borrowing
+- lifetimes
+- Result/Option
+- traits
+- Cargo
+- async basics
+- concurrency
+
+Do not replace all your TypeScript/Python work with Rust.
+
+Project:
+CLI, network service, or performance component in Rust.
+
+======================================================
+MONTH 18 - INFRASTRUCTURE AS CODE + KUBERNETES
+======================================================
+Learn:
+- Terraform
+- infrastructure state
+- modules
+- Docker orchestration concepts
+- Kubernetes:
+  pods
+  deployments
+  services
+  config/secrets
+  ingress
+  autoscaling
+  health checks
+
+Project:
+Deploy one multi-service application.
+Do not become a Kubernetes YAML collector; understand why it exists.
+
+======================================================
+MONTH 19 - MOBILE PRODUCT DEVELOPMENT
+======================================================
+Because you already know React:
+Start with React Native.
+
+Learn:
+- mobile UI
+- navigation
+- API integration
+- storage
+- notifications
+- camera/files
+- auth
+- Android/iOS build/deploy concepts
+
+Project:
+Mobile client for one existing backend.
+
+Native Android Kotlin / iOS Swift can be learned later if a job/product requires it.
+
+======================================================
+MONTH 20 - BLOCKCHAIN / WEB3 / STABLECOIN INFRA
+======================================================
+Only now, because you already understand:
+networking + databases + security + distributed systems.
+
+Learn:
+- blockchain data model
+- hashes/Merkle trees
+- wallets/keys
+- signatures
+- Ethereum/EVM
+- smart contracts
+- RPC nodes
+- indexing
+- stablecoin flows
+- custody/non-custody
+- bridges risks
+- on-chain/off-chain architecture
+- security
+
+Project:
+Do NOT begin with a token.
+Build a useful wallet/payment/indexing/monitoring prototype.
+
+======================================================
+MONTH 21 - DIGITAL ELECTRONICS + EMBEDDED FOUNDATION
+======================================================
+Robotics preparation starts.
+
+Learn:
+- voltage/current/resistance
+- digital logic
+- binary
+- GPIO
+- ADC/PWM
+- sensors
+- motors
+- microcontrollers
+- UART/I2C/SPI
+- basic electronics safety
+
+Use:
+Arduino/ESP32 or similar.
+
+Language:
+C/C++.
+
+Project:
+Sensor + motor + network-connected embedded device.
+
+======================================================
+MONTH 22 - ROBOTICS + ROS2 FOUNDATION
+======================================================
+Learn:
+- Linux for robotics
+- ROS2
+- nodes
+- topics
+- services
+- actions
+- messages
+- parameters
+- launch files
+- TF
+- URDF
+- Gazebo/simulation
+- Python + C++ ROS nodes
+
+Project:
+Simulated mobile robot.
+Control it and read sensors.
+
+======================================================
+MONTH 23 - ROBOT PERCEPTION + CONTROL
+======================================================
+Learn:
+- coordinate frames
+- basic linear algebra for robotics
+- PID/control intuition
+- kinematics
+- camera basics
+- OpenCV
+- object detection
+- sensor fusion idea
+- localization
+- SLAM concept
+- navigation stack
+
+Project:
+Robot simulation:
+camera + object detection + navigation.
+
+======================================================
+MONTH 24 - CAPSTONE: AI ROBOT + STARTUP-GRADE SYSTEM
+======================================================
+Build ONE serious capstone combining several skills:
+
+Example:
+AI-enabled mobile robot / warehouse assistant / monitoring robot.
+
+Architecture:
+Robot: C++/Python + ROS2
+Perception: OpenCV / model inference
+Backend: TypeScript/Python APIs
+Realtime: WebSockets
+Database: PostgreSQL
+Cache: Redis
+Cloud: AWS
+Storage: S3/Cloudinary depending use case
+DevOps: Docker + CI/CD
+Dashboard: React/TypeScript
+Mobile: React Native optional
+AI: LLM/RAG/agent only where actually useful
+Security: auth + secrets + encrypted transport
+Observability: logs + metrics
+
+Deliverables:
+- GitHub repository
+- README
+- architecture diagram
+- demo video
+- live dashboard
+- benchmark
+- tests
+- design decisions
+- failure cases
+- roadmap to production
+
+======================================================
+CS SUBJECT ORDER
+======================================================
+Study these deeply:
+1. Data Structures
+2. Algorithms
+3. DBMS
+4. Operating Systems
+5. Computer Networks
+6. Computer Organization & Architecture
+7. Security/Cryptography
+
+Study after foundations:
+8. Discrete Mathematics
+9. Digital Electronics
+
+Study for CS depth, but lower immediate career priority:
+10. Theory of Computation
+11. Compiler Design
+
+You do NOT need to finish every Neso Academy playlist before building products.
+Use theory + implementation together.
+
+======================================================
+PROGRAMMING LANGUAGE ORDER
+======================================================
+1. TypeScript
+Reason: current stack + strong modern production ecosystem.
+
+2. Python
+Reason: AI, automation, data, backend, robotics.
+
+3. C
+Reason: memory, OS, embedded understanding.
+
+4. C++
+Reason: high-performance systems + robotics.
+
+5. Rust
+Reason: safe systems programming; learn after memory/concurrency concepts.
+
+Do NOT learn all five simultaneously.
+Rule: At any time, 1 primary language + 1 secondary language maximum.
+
+======================================================
+CLOUD ORDER
+======================================================
+1. Vercel - already know
+2. AWS - primary cloud
+3. Cloudflare - edge/CDN/DNS/workers
+4. GCP - learn later through comparison/projects
+
+You do not need certifications first.
+Deploy real systems first.
+
+======================================================
+PROJECT LADDER
+======================================================
+Project 1: Professional TypeScript API
+Project 2: PostgreSQL SaaS backend
+Project 3: Realtime chat/collaboration system
+Project 4: Dockerized production stack
+Project 5: AWS-deployed service
+Project 6: Scalable system-design project
+Project 7: Python/FastAPI + ML service
+Project 8: RAG/agent app with evals
+Project 9: C++ performance project
+Project 10: Rust networking/CLI project
+Project 11: Mobile client
+Project 12: Embedded sensor/motor system
+Project 13: ROS2 simulated robot
+Project 14: AI robotics capstone
+
+======================================================
+HOW TO BUILD A CAREER WITHOUT A CS DEGREE
+======================================================
+A degree can help pass HR filters, and some companies will require one.
+Do not pretend this constraint does not exist.
+
+Compensate with strong proof:
+- serious GitHub history
+- deployed products
+- open-source contributions
+- system design ability
+- strong DSA/interview ability
+- technical writing
+- referrals/network
+- freelance/startup work
+- real users
+- measurable performance improvements
+- clear English communication
+
+Do not put 40 skills in a bio if you cannot explain them deeply.
+
+A better future profile:
+"Software engineer focused on scalable backend, distributed systems and AI products.
+TypeScript/Python/C++, PostgreSQL/Redis, AWS/Docker, real-time systems and applied AI.
+Building toward robotics and intelligent systems."
+
+======================================================
+HIGH-COMPENSATION STRATEGY
+======================================================
+High compensation usually comes from depth and leverage, not number of technologies.
+
+Aim for one of these strong identities:
+A. Backend / Distributed Systems Engineer
+B. AI Product / AI Infrastructure Engineer
+C. Platform / Cloud Engineer
+D. Systems / Performance Engineer
+E. Robotics Software Engineer
+F. Founder who can build end-to-end products
+
+Best combination for your goals:
+Backend + AI + systems + robotics.
+
+For the next 12 months:
+Be a strong backend/cloud engineer who can add AI.
+
+For months 13-24:
+Become an AI/systems engineer moving into robotics.
+
+======================================================
+MONTHLY SCORECARD
+======================================================
+At the end of every month score yourself 0-5:
+1. Theory understood
+2. Code written without tutorial
+3. Project shipped
+4. Tests written
+5. Deployment done
+6. Debugging ability
+7. GitHub quality
+8. Interview questions
+9. Documentation
+10. Can explain it simply
+
+If total < 30/50:
+Do NOT add more technologies.
+Repeat weak areas.
+
+======================================================
+WEEKLY SCORECARD
+======================================================
+Every Sunday answer:
+- What did I ship?
+- What did I understand deeply?
+- What can I now do without notes?
+- What bug taught me the most?
+- What did I waste time on?
+- What will I remove next week?
+- Which one project improved?
+- Did I commit meaningful code?
+- Did I solve 5-10 DSA questions?
+- Did I explain one concept in writing?
+
+======================================================
+RULES THAT WILL SAVE TWO YEARS
+======================================================
+1. Do not course-hop.
+2. Do not learn five languages at once.
+3. Do not learn Kubernetes before Docker/Linux/networking.
+4. Do not learn Rust before understanding memory and concurrency.
+5. Do not start robotics before Python/C++/Linux fundamentals.
+6. Do not memorize AWS services; deploy systems.
+7. Do not only watch videos; code every day.
+8. Do not create only CRUD tutorial apps.
+9. Do not ignore SQL because you know MongoDB.
+10. Do not ignore testing, security and observability.
+11. Do not chase every new AI framework.
+12. Learn concepts that survive framework changes.
+13. Build in public when possible.
+14. Keep one long-running capstone project.
+15. Every 3 months remove obsolete goals and revise the plan.
+
+======================================================
+FIRST 7 DAYS - START HERE
+======================================================
+Day 1:
+TypeScript setup, tsconfig, primitives, objects, arrays, functions.
+Convert one small JS file to TypeScript.
+
+Day 2:
+type vs interface, unions, narrowing.
+Type API request/response objects.
+
+Day 3:
+generics + utility types.
+Create reusable API response/error types.
+
+Day 4:
+Node.js event loop, call stack, task/microtask queues.
+Write small experiments.
+
+Day 5:
+Express middleware lifecycle.
+Build logging + error middleware.
+
+Day 6:
+REST, HTTP status codes, headers, cookies, CORS.
+Refactor one existing route properly.
+
+Day 7:
+Weekly project day:
+Take one existing MERN feature and rebuild it cleanly in TypeScript.
+Push to GitHub with README and architecture notes.
+
+======================================================
+FINAL 24-MONTH OUTCOME
+======================================================
+If you consistently study 2h40m/day and actually build projects, at the end of 24 months
+you should not describe yourself as "I know MERN, Python, Rust, AWS, AI, robotics."
+
+You should be able to say:
+
+"I can design, implement, test, deploy and operate production software.
+I understand databases, networking, operating systems and distributed-system tradeoffs.
+I can build real-time and AI-enabled products, work in TypeScript/Python/C++,
+use cloud and containers, and I have started building intelligent robotic systems."
+
+That depth is far more valuable than a long list of technology names.
